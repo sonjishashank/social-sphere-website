@@ -35,8 +35,6 @@ export function Testimonials() {
           opts={{
             align: 'start',
             loop: true,
-            autoplay: true,
-            interval: 2000,  // Adjust slide interval as needed
           }}
           className="w-full max-w-5xl mx-auto"
         >

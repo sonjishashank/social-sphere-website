@@ -58,11 +58,6 @@ function Calendar({
         ...classNames,
       }}
       components={{
-        Caption: ({ date }) => (
-          <div className="text-center">
-            {date.toLocaleDateString(undefined, { month: 'long', year: 'numeric' })}
-          </div>
-        ),
         IconLeft: () => <ChevronLeftIcon className="h-4 w-4" />,
         IconRight: () => <ChevronRightIcon className="h-4 w-4" />,
       }}

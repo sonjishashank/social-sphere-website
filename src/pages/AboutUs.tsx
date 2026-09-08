@@ -61,39 +61,7 @@ const podcastImages = [
   'https://starset4consulting.github.io/Social-clients/image7.jpg',
 ];
 
-const seoSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Social Sphere",
-  "url": "https://socialsphere.in",
-  "logo": "https://starset4consulting.github.io/Social-clients/image6.png",
-  "sameAs": [
-    "https://www.facebook.com/socialsphere",
-    "https://www.instagram.com/socialsphere",
-    "https://twitter.com/socialsphere"
-  ],
 
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "17.385044",
-    "longitude": "78.486671"
-  },
-  "description": "Leading Digital Marketing Agency in Hyderabad, Telangana. Specializing in social media management, SEO, web development, podcast production, and political campaign management.",
-  "areaServed": ["Hyderabad", "Telangana", "India"],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "50"
-  }
-};
-
-const seoKeywords = "digital marketing agency Hyderabad, social media management Telangana, SEO services Hyderabad, political campaign management, podcast production Hyderabad, web development company Hyderabad, digital marketing services, social media marketing agency, content creation Hyderabad, influencer marketing Telangana, best digital marketing agency Hyderabad, top SEO company Telangana, social media experts Hyderabad, political campaign experts India, podcast production services Hyderabad";
 
 export function AboutUs() {
   const seoKeywords = "digital marketing agency Hyderabad, social media management Telangana, SEO services Hyderabad, political campaign management, podcast production Hyderabad, web development company Hyderabad, digital marketing services, social media marketing agency, content creation Hyderabad, influencer marketing Telangana";
